@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>OX game</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css\bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="\css\bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="\css\flipclock.css">
+</head>
+
+<body>
+    <header>
+        <p>OX game</p>
+        <h2 id="welcome"></h2>
+        <h2 id="state"></h2>
+        <h2 id="result" style="color:red"></h2>
+
+    </header>
+    <ul class="list-group" id="showUsers">
+        <li class="list-group-item active">USERS</li>
+
+    </ul>
+    <table>
+        <tr>
+            <td id="1"></td>
+            <td id="2"></td>
+            <td id="3"></td>
+        </tr>
+        <tr>
+            <td id="4"></td>
+            <td id="5"></td>
+            <td id="6"></td>
+        </tr>
+        <tr>
+            <td id="7"></td>
+            <td id="8"></td>
+            <td id="9"></td>
+        </tr>
+    </table>
+    <div class="row">
+        <button type="button" id="regame" class="btn-primary col-md-2  col-md-offset-3" >regame</button>
+        <button type="button" id="reset" class="btn-primary col-md-2 " >redo</button>
+        <button type="button" id="submit" class="btn-primary col-md-2  col-md-offset-0.5" >confirm</button>
+    </div>
+
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/socket.io-1.2.0.js"></script>
+    <script src="js/main.js"></script>
+    <script src="jsflipclock.min.js"></script>
+</body>
+
+</html>
